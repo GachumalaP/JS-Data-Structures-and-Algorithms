@@ -8,4 +8,13 @@ We know that JS will not provide a seperate data structures for implementing/sol
 
 I will also be implementing popular Algorithms
 
-# Searching Algorithms
+## Searching Algorithms
+- Linear Search
+* Binary Search
+
+## Sorting Algorithms 
+| Simple Algorithms  | Efficient Algorithms |
+| -------------------| ---------------------|
+| Insertion sort     | Merge sort           |
+| Selection sort     | Quick sort           |
+| Bubble sort        | Heap sort            |
