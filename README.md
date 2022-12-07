@@ -9,3 +9,5 @@ We know that JS will not provide a seperate data structures for implementing/sol
 I will also be implementing popular Algorithms
 
 # Searching Algorithms
+Linear Searh
+Binary Search
