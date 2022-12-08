@@ -17,3 +17,10 @@ In first pass compare 7 and the min element among the values 8,1,2,3,0,4 is 0. S
 4th pass -> 0,1,2,3,8,7,4
 5th pass -> 0,1,2,3,4,7,8
 6th pass -> 0,1,2,3,4,7,8
+
+Time complexity 
+Best case O(n*n)
+worst case O(n*n)
+
+Space complexity 
+O(1)
