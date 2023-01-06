@@ -1,6 +1,6 @@
 /*
 --> Faster searching algorithm
--->Works on only sorted arrays
+--> Works on only sorted arrays
 --> Idea is divide and conquer
 --> considering the given input is sorted
 */
@@ -12,7 +12,6 @@ const BinarySearch = (arr, value) => {
     let rightPtr = arr.length - 1;
     while (leftPtr <= rightPtr) {
         let middlePtr = Math.floor((leftPtr + rightPtr) / 2);
-        console.log(middlePtr);
         if (arr[middlePtr] === value) return middlePtr
         else if (arr[middlePtr] > value) {
             rightPtr = middlePtr - 1;
