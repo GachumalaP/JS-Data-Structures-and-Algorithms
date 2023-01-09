@@ -1,4 +1,5 @@
 // root > left > right
+// leetcode https://leetcode.com/problems/binary-tree-preorder-traversal/
 
 function TreeNode(val, left, right) {
     this.val = (val === undefined ? 0 : val)
@@ -8,6 +9,7 @@ function TreeNode(val, left, right) {
 
 // @param {TreeNode} root
 
+// recursive way
 const preorderTraversal = (root) => {
 
     //check if root is null
