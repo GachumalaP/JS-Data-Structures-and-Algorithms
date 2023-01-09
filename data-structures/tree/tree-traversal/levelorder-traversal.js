@@ -1,6 +1,6 @@
-//Input: root = [3,9,20,null,null,15,7]
-//Output: [3,9,20,15,7]
-//Leetcode https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+// Input: root = [3,9,20,null,null,15,7]
+// Output: [3,9,20,15,7]
+// Leetcode https://leetcode.com/problems/binary-tree-level-order-traversal/description/
 
 
 const levelOrderTraversal = (node) => {
