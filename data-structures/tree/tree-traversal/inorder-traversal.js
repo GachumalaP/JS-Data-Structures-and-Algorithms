@@ -1,4 +1,5 @@
-//  left > root > right
+// left > root > right
+// leetcode https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 function TreeNode(val, left, right) {
     this.val = (val === undefined ? 0 : val)
@@ -8,17 +9,17 @@ function TreeNode(val, left, right) {
 
 // @param {TreeNode} root
 
-const postorderTraversal = (root) => {
+const inorderTraversal = (root) => {
 
     //check if root is null
     if (root == null) return;
 
     //traversing left part
-    preorderTraversal(root.left);
+    inorderTraversal(root.left);
 
     console.log(root.val);
-    
+
     //traversing right part
-    preorderTraversal(root.right);
+    inorderTraversal(root.right);
 
 }
