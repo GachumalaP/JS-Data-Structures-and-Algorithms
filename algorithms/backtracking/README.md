@@ -1,0 +1,1 @@
+Backtracking is a problem sloving algorithm where we explore all the possiblities to reach the destination or get desired solution
